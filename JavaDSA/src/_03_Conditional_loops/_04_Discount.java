@@ -13,5 +13,7 @@ public class _04_Discount {
         double sale_price=lp-discount_amount;
         System.out.println("Price after discount "+sale_price);
 
+        sc.close();
+
     }
 }
