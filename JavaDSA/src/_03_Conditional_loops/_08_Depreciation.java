@@ -20,7 +20,7 @@ public class _08_Depreciation {
 
         double depreciation=(asset-res)/ual;
 
-        System.out.println("Depreciation "+ depreciation);
+        System.out.println("Depreciation "+  depreciation);
 
 
 
