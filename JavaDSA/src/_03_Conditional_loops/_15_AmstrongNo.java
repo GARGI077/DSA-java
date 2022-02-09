@@ -32,4 +32,5 @@ public class _15_AmstrongNo {
         else
             return false;
     }
+
 }

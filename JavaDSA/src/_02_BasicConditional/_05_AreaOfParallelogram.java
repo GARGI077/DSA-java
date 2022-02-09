@@ -11,5 +11,7 @@ public class _05_AreaOfParallelogram {
         double b= sc.nextInt();
         double area=b*h;
         System.out.println("height = "+h+"\nbase = "+b+"\narea = "+area);
+
+        sc.close();
     }
 }

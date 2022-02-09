@@ -11,5 +11,6 @@ public class SimpleIntrest {
         t=sc.nextInt();
         float si= (float) (p*t*r)/100;
         System.out.println(si);
+        sc.close();
     }
 }

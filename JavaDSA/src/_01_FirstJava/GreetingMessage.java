@@ -8,5 +8,6 @@ public class GreetingMessage {
         System.out.println("enter name");
         String name=sc.next();
         System.out.println("Welcome to Java World "+name);
+        sc.close();
     }
 }

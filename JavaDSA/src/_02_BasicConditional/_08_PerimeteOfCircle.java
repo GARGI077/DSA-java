@@ -10,5 +10,7 @@ public class _08_PerimeteOfCircle {
         int radius=sc.nextInt();
         double perimeter=2*pi*radius;
         System.out.println("radius= "+radius+"\nperimeter= "+perimeter);
+
+        sc.close();
     }
 }

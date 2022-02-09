@@ -16,5 +16,7 @@ public class _09_BattingAvg {
         int outmatches=matches-notout;
         double baverage=runs/outmatches;
         System.out.println("Batting Average= "+baverage);
+
+        input.close();
     }
 }

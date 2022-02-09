@@ -16,5 +16,7 @@ public class _25_ {
                 max=temp;
         }while(num!=0);
         System.out.println("Maximum number entered till n "+max);
+
+        sc.close();
     }
 }

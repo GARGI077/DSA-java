@@ -14,5 +14,7 @@ public class _01_Factorial {
             num--;
         }
         System.out.println("factorial of number "+fact);
+
+        sc.close();
     }
 }

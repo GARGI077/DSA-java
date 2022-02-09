@@ -18,5 +18,6 @@ public class _11_Compound_Interest {
         double CI=p * (Math.pow((1+r/100),t));
 
         System.out.println("Principal = "+p+"\nRate = "+r+"\nCompund Interest = "+CI);
+        in.close();
     }
 }

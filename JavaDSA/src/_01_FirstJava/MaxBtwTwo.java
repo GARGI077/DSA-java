@@ -16,5 +16,6 @@ import java.util.Scanner;
         else
             max=y;
         System.out.println("Maximum no :"+max);
+        sc.close();
     }
 }

@@ -9,5 +9,7 @@ public class _20_TSAofCube {
         double side=sc.nextInt();
         double tsa=6*side*side;
         System.out.println("Total Surface Area Of Cube \nSide ="+side+"\nTotal Surface Area="+tsa);
+
+        sc.close();
     }
 }

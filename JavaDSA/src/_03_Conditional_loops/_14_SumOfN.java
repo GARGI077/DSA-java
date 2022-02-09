@@ -13,5 +13,6 @@ public class _14_SumOfN {
         int sum=n*(n+1)/2;
 
         System.out.println("Sum of N numbers :"+sum);
+        in.close();
     }
 }

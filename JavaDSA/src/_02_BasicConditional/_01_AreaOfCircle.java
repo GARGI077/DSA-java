@@ -13,5 +13,6 @@ public class _01_AreaOfCircle {
         double area=pi*pow(rad,2);
         System.out.println("radius = "+rad+"\nArea = "+area);
 
+        sc.close();
     }
 }

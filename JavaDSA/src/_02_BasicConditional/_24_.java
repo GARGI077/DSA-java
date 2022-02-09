@@ -15,5 +15,7 @@ public class _24_ {
         }
         while (num != 0);
         System.out.println("Sum = " + sum);
+
+        in.close();
     }
 }

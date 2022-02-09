@@ -11,5 +11,7 @@ public class _04_AreaOfIsoscelesTriangle {
         int b=sc.nextInt();
         double area=0.5*b*h;
         System.out.println("Height = " +h+"\nBase = "+b+"\nArea = "+area);
+
+        sc.close();
     }
 }

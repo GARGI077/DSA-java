@@ -21,5 +21,7 @@ public class _12_AvgMarks {
         }
 
         System.out.println("\nAverage = "+ avg);
+
+        in.close();
     }
 }

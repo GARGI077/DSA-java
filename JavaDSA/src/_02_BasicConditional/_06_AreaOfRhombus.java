@@ -13,5 +13,6 @@ public class _06_AreaOfRhombus {
         double area=0.5*b*h;
         System.out.println("Base :: "+b+"\nHeight :: "+h+"\nArea of triangle :: "+area);
 
+        sc.close();
     }
 }

@@ -38,5 +38,7 @@ public class Operators {
                 value=b/a;
             System.out.println("Quotient : "+value);
         }
+
+        sc.close();
     }
 }

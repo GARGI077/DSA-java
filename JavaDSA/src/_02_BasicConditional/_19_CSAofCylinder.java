@@ -13,5 +13,6 @@ public class _19_CSAofCylinder {
         double csa=2*pi*radius*h;
         System.out.println("Curved Surface Area of Cylinder"+"\nRadius = "+radius+"\nHeight = "+h+"\nCurved Surface Area = "+csa);
 
+        sc.close();
     }
 }

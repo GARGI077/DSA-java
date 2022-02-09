@@ -9,5 +9,7 @@ public class _09_PerimeterOfEquilateralTriangle {
         int side=sc.nextInt();
         int perimeter=3*side;
         System.out.println("Side = "+side+"\nPerimeter = "+perimeter);
+
+        sc.close();
     }
 }

@@ -22,7 +22,7 @@ public class _08_Depreciation {
 
         System.out.println("Depreciation "+  depreciation);
 
-
+        in.close();
 
 
 

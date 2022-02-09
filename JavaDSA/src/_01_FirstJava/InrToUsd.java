@@ -9,6 +9,7 @@ public class InrToUsd {
         double inr=sc.nextInt();
         double usd=inr*0.013;
         System.out.println("INR to USD "+usd +"$");
+        sc.close();
 
     }
 }

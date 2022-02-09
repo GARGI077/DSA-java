@@ -14,5 +14,7 @@ public class _23_FactorsOfNumber {
                 System.out.println(i);
             i++;
         }
+   sc.close();
+
     }
 }

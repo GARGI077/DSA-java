@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class _13_AddTwo {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter num 1 ");
@@ -12,5 +13,8 @@ public class _13_AddTwo {
         int b=in.nextInt();
         int sum=a+b;
         System.out.println("Sum of two no is "+sum);
+
+        in.close();
+
     }
 }

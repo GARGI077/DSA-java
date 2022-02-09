@@ -12,5 +12,7 @@ public class _14_VolumeOfCone {
         double rad=sc.nextInt();
         double volume=(0.3)*pi*rad*rad*h;
         System.out.println("Radius of cone = "+rad+"\n Height of cone = "+h+"\nVolume = "+volume);
+
+        sc.close();
     }
 }

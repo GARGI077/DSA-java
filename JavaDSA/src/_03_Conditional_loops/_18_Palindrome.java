@@ -22,5 +22,7 @@ public class _18_Palindrome {
         {
             System.out.println("Number is Palindrome ");
         }
+
+    in.close();
     }
 }

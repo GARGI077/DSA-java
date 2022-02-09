@@ -12,5 +12,7 @@ public class _03_AreaOfRect {
         width=sc.nextInt();
         area=length*width;
         System.out.println("length = "+length+"\nwidth = "+width+"\narea = "+area);
+
+        sc.close();
     }
 }

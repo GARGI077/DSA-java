@@ -12,5 +12,7 @@ public class _17_VolumeOfSphere {
         double radius=sc.nextInt();
         double volume=(1.33)*pi*pow(radius,3);
         System.out.println("Radius = "+radius+"\nVolume = "+volume);
+
+        sc.close();
     }
 }

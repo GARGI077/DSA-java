@@ -12,5 +12,6 @@ public class _07_AreaOfEquilateralTriangle {
         double area=0.433*pow(side,2);
         System.out.println("Side = "+side+"\nArea = "+area);
 
+        sc.close();
     }
 }

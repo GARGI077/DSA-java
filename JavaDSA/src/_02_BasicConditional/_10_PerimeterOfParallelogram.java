@@ -11,5 +11,7 @@ public class _10_PerimeterOfParallelogram {
         int b=sc.nextInt();
         int perimeter=2*(l+b);
         System.out.println("Length = "+l+"\nBreadth = "+b+"\nPerimeter = "+perimeter);
+
+        sc.close();
     }
 }

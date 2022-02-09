@@ -22,5 +22,7 @@ public class _22_ProductAndSumOfDigits {
         System.out.println("Product of Digits = "+pod+"\nSum of Digits = "+sod);
         int result=pod-sod;
         System.out.println("Product of Digits - Sum of Digit = "+result);
+
+        sc.close();
     }
 }

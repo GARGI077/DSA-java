@@ -14,5 +14,7 @@ public class _07_Power {
         int result= (int) Math.pow(num,power);
         System.out.println("Power : "+result);
 
+        in.close();
+
     }
 }

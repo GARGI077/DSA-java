@@ -30,5 +30,6 @@ public class _10_CGPA {
         System.out.println("CGPA :: "+cgpa);
         System.out.println("CGPA Percentage = "+String.format("%.2f",cgpa * 9.5 ));
 
+        in.close();
     }
 }

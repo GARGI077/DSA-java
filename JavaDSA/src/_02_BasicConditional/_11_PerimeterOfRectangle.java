@@ -11,5 +11,7 @@ public class _11_PerimeterOfRectangle {
         int w=sc.nextInt();
         int perimeter=2*(l+w);
         System.out.println("Length ="+l+"\nBreadth = "+w+"\nPerimeter = "+perimeter);
+
+        sc.close();
     }
 }

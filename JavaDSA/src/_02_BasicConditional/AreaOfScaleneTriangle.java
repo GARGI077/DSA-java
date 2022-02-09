@@ -19,5 +19,7 @@ public class AreaOfScaleneTriangle {
         double z=s-c;
         double area=sqrt(s*x*y*z);
         System.out.println("A = "+a+"\nB = "+b+"\nC = "+c+"\nArea ="+area);
+
+        sc.close();
     }
 }
