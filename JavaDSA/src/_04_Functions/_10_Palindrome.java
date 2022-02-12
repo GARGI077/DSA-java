@@ -35,5 +35,6 @@ public class _10_Palindrome {
         {
             System.out.println("Nt a Palindrome ");
         }
+        in.close();
     }
 }

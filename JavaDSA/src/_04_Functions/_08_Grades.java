@@ -23,6 +23,7 @@ public class _08_Grades {
         int valuate=(int)percentage/10;
 
         System.out.println("");
+        scanner.close();
     }
 
     static String Grades(int marks )

@@ -16,5 +16,6 @@ public class _14_SumofN {
         int n=in.nextInt();
         int sum=SumN(n);
         System.out.println("Sum of  N terms "+sum);
+        in.close();
     }
 }
