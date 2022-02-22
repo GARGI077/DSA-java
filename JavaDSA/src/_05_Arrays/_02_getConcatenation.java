@@ -13,6 +13,6 @@ public class _02_getConcatenation
     }
 
     public static void main(String[] args) {
-        
+
     }
 }
