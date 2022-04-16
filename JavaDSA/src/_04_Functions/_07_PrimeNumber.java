@@ -21,17 +21,17 @@ public class _07_PrimeNumber {
             return false;
 
 
-        int c=2;
+        int factor=2;
 
-        while (c*c<=n)
+        while (factor*factor<=n)
         {
-            if(n%c==0)
+            if(n%factor==0)
             {
                 return false;
             }
-            c++;
+            factor++;
         }
 
-        return c*c>n;
+        return factor*factor>n;
     }
 }
