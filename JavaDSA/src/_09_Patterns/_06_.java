@@ -9,12 +9,14 @@ public class _06_ {
 
         int n=in.nextInt();
 
-        int nstars=1;
+       // int nstars=1;
 
 
         for(int i=1;i<=n;i++)
         {
-            for(int j=1;j<=i;j++)
+            int nstars=i;
+            int nspaces=n-i;
+            for(int j=1;j<=nspaces;j++)
             {
                 System.out.print("\t");
             }
@@ -23,7 +25,7 @@ public class _06_ {
                 System.out.print("*\t");
             }
             System.out.println();
-            nstars++;
+
         }
     }
 }
